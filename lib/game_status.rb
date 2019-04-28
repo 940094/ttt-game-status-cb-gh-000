@@ -35,4 +35,4 @@ end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
 won?(board)
-full?(board)
+puts full?(board)
