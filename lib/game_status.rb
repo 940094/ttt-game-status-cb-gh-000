@@ -53,8 +53,12 @@ def over?(board)  # returns TRUE if board is won or a draw or full
 end
 
 def winner?(board)  # returns the winner of the game if there is a winner (trigger via won?)
-  puts winning_array = won?(board)
-  return board[winning_array[0]]
+  winning_array = won?(board)
+  if winning_array != false
+    return board[winning_array[0]]
+  else
+    return false
+  end
 end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
