@@ -64,4 +64,4 @@ end
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
 won?(board)
 full?(board)
-puts winner?(board)
+winner?(board)
