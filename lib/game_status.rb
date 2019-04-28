@@ -54,7 +54,7 @@ end
 
 def winner?(board)  # returns the winner of the game if there is a winner (trigger via won?)
   puts winning_array = won?(board)
-  return winning_array[0]
+  return board[winning_array[0]]
 end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
