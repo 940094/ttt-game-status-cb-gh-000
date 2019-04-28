@@ -42,6 +42,7 @@ def draw?(board)
     return false
   # board is won => false
 end
+end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
 won?(board)
