@@ -30,7 +30,7 @@ def won?(board)  # return false if no winning combo; return winning combination 
 end
 
 def full?(board)
-  board.include?(" ")
+  !board.include?(" ")
 end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
