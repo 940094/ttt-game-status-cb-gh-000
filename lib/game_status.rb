@@ -57,7 +57,7 @@ def winner?(board)  # returns the winner of the game if there is a winner (trigg
   if winning_array != false
     return board[winning_array[0]]
   else
-    return false
+    return nils
   end
 end
 
