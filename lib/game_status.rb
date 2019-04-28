@@ -19,7 +19,7 @@ def won?(board)  # return false if no winning combo; return winning combination 
   WIN_COMBINATIONS.each do |win_combinations| # for each winning_combination
      winning_combination = []
      puts win_combinations.all? do |index|  # look at each index in the combination. if each index is an X or O, set the win
-       index == 'X'
+       board[index] == 'X'
      end
   end
 end
