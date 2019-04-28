@@ -41,7 +41,7 @@ def draw?(board)
   else # not been won but not full => false
     return false
   # board is won => false
-end
+  end
 end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
