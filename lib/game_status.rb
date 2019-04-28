@@ -29,5 +29,13 @@ def won?(board)  # return false if no winning combo; return winning combination 
   return false
 end
 
+def full?(board)
+  if position_taken?
+    return true
+  else
+    return false
+  end
+end
+
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
 won?(board)
