@@ -24,10 +24,9 @@ def won?(board)  # return false if no winning combo; return winning combination 
      # look at 0, 1, 2 index and if all are X, then there's a win, or if all are O there's a win
      if (index_0 == 'X' && index_1 == 'X' && index_2 == 'X') || (index_0 == 'O' && index_1 == 'O' && index_2 == 'O')
        return win_combinations
-     else
-       return false
      end
   end
+  return false
 end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
