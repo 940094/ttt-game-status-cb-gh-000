@@ -52,7 +52,7 @@ def over?(board)  # returns TRUE if board is won or a draw or full
   end
 end
 
-def winner?(board)  # returns the winner of the game if there is a winner (trigger via won?)
+def winner(board)  # returns the winner of the game if there is a winner (trigger via won?)
   winning_array = won?(board)
   if winning_array != false
     return board[winning_array[0]]
