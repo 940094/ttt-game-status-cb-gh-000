@@ -24,4 +24,4 @@ def won?(board)  # return false if no winning combo; return winning combination 
 end
 
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-# puts won?(board)
+puts won?(board)
