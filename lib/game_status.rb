@@ -29,4 +29,4 @@ def won?(board)  # return false if no winning combo; return winning combination 
 end
 
 board = ["O", "O", "O", " ", " ", " ", " ", " ", " "]
-won?(board)
+p won?(board)
