@@ -18,9 +18,9 @@ WIN_COMBINATIONS = [  # 3 vertical, 3 horizontal, 2 diagnol
 def won?(board)  # return false if no winning combo; return winning combination index if there is a win
   WIN_COMBINATIONS.each do |win_combinations| # for each winning_combination
     p win_combinations
-     index_0 = win_combinations[0]  # index 0
-     index_1 = win_combinations[1]  # index 0
-     index_2 = win_combinations[2]  # index 0
+     index_0 = board[win_combinations[0]]  # index 0
+     index_1 = board[win_combinations[1]]  # index 0
+     index_2 = board[win_combinations[2]]  # index 0
      # look at 0, 1, 2 index and if all are X, then there's a win, or if all are O there's a win
      if (index_0 == 'X' && index_1 == 'X' && index_2 == 'X') || (index_0 == 'O' && index_1 == 'O' && index_2 == 'O')
        puts win_combinations
