@@ -30,7 +30,7 @@ def won?(board)  # return false if no winning combo; return winning combination 
 end
 
 def full?(board) # returns false if not full; returns true if full
-  !board.include?(" ") 
+  !board.include?(" ")
 end
 
 def draw?(board)
